@@ -16,6 +16,6 @@ public class Quiz {
     private long id;
     private String title;
 
-    @Transient  // Remove if you want it to be mapped as a relationship in JPA
+    @Transient
     private List<Question> questions;
 }
